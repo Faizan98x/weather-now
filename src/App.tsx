@@ -82,9 +82,9 @@ const App: React.FC = () => {
       case "clear":
         return <Sun className={`${size} text-yellow-500`} />;
       case "clouds":
-        return <Cloud className={`${size} text-gray-500`} />;
+        return <Cloud className={`${size} text-blue-100`} />;
       case "rain":
-        return <CloudRain className={`${size} text-blue-500`} />;
+        return <CloudRain className={`${size} text-blue-300`} />;
       case "snow":
         return <CloudSnow className={`${size} text-blue-200`} />;
       case "thunderstorm":
